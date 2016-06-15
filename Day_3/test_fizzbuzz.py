@@ -21,3 +21,4 @@ class FizzBuzzTest(unittest.TestCase):
 		test_bth=fizz_buzz(15)
 		self.assertEqual(test_bth,'fizzbuzz')
 		
+unittest.main()
