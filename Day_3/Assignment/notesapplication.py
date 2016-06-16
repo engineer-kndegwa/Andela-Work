@@ -24,7 +24,7 @@ class NotesApplication(object):
 		self.note_id=note_id
 		for i in range(len(self.notes_list)):
 			if self.note_id==i:
-				print("Your Note ID is:"+ self.notes_list[i]+"\n")
+				print("Content for your note ID is :"+ self.notes_list[i]+"\n")
 #---------------------------------------------------------------
 	def search_text(self,search_text):
 		self.search_text=search_text
@@ -53,7 +53,7 @@ notesApp.create("four")
 #review my data
 notesApp.list_content()
 #get note id. the number may change accordingly i.e parameters
-notesApp.get_note_id(1)
+notesApp.get_note_id(3)
 #Search text with a litte format twist as mentioned above
 notesApp.search_text("One")
 #EDit respective note id
@@ -61,6 +61,7 @@ notesApp.edit_id(1,"Twenty Four")
 #I have called the below method simply for the purposes of the testing the new list content
 #May or may not be ommited
 notesApp.list_content()
+
 
 
 
