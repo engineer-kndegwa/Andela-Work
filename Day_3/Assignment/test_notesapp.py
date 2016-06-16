@@ -18,7 +18,7 @@ class TestNotesApp(unittest.TestCase):
 		"""This tests if the notes_list is empty or not"""
 		test_if_content= NotesApplication('Dummy Content')
 		test_list_content_if_empty = test_if_content.list_content()
-		self.assertNotEqual(test_list_content_if_empty, None)
+		self.assertEqual(test_list_content_if_empty, None)
 	
 	
 unittest.main()
