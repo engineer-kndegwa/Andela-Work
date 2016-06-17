@@ -20,5 +20,11 @@ class FizzBuzzTest(unittest.TestCase):
 		"""
 		test_bth=fizz_buzz(15)
 		self.assertEqual(test_bth,'fizzbuzz')
+	def test_if_int(self):
+		'''Testing if the number is an integer'''
+		test_bth2 = fizz_buzz(10)
+		self.assertEqual(type(10),int)
+	
+	
 		
 unittest.main()
