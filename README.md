@@ -1,4 +1,4 @@
-# Andela Bootcamp -8 Work and Exercises and assignments.
+# Andela Bootcamp for Cohort 8 Work,Exercises and assignments.
 **Introduction**
 The work has been organised in the main repository under the name ***Andela-Work***.
 
@@ -9,5 +9,7 @@ To view it:
 * first clone the repo at [https://github.com/Kimanicodes/Andela-Work/]  
 * proceed to view the files from your preferred
 text editor.
+
+For  more on me and what I do and have been doing [www.kimanindegwa.co.ke]
 
 ***Cheers!***
